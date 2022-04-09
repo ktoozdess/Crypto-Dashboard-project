@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&display=swap" rel="stylesheet">
+    <title>Hello, world!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+
+</head>
+  <body class="container">
+    <div class="wrapper">
+        <header>
+            <div class="px-3 py-2 bg-dark text-white">
+              <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                  <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                    <h3 class="logo">Crypto Dashboard</h3>
+                  </a>
+        
+                  <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                    <li>
+                      <a href="#" class="nav-link text-secondary">
+                        Home
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link text-white">
+                        Dashboard
+                      </a>
+                    </li>
+                    
+                  </ul>
+                <input type="text" class="form-control" style="text-transform:uppercase" placeholder="Enter a crypto">
+                <!-- <input type="submit" class="btn btn-secondary btn-search" value="submit" > -->
+                <button type="submit" class="btn btn-secondary btn-search" ><img src="img/searchgoogle.svg" alt=""></button>
+
+                </div>
+              </div>
+            </div>
+            <div class="header-second">
+            <br>
+            <a class="nav-link text-secondary rules-header" href="#">You need to enter cryptocurrencies in the search line strictly with caps lock (example: BTCUSDT, XLMUSDT)</a>
+                <!-- <a href="#" class="spotpage nav-link">Spot</a>
+                <a href="favpage.html" class="favpage nav-link">Favourites</a>
+     -->
+            </div>
+          </header>
+          <div class="main-wrapper">
+            <!-- <div class="crypto-info">
+                <p class="crypto-name">name</p>
+                <p class="crypto-price">price</p>
+                <p class="twofourhprocent">twofourhprocent</p>
+                <p class="volume">volume</p>
+              </div>
+              <div class="crypto-info">
+               <a href="#" class="aicon"><img src="img/btcicon.svg" class="cryptoicon" alt=""><p class="crypto-nameBTC crypto-name"></p></a> 
+                <p class="priceBTC crypto-price"></p>
+                <p class="twofourhprocentBTC twofourhprocent"></p>
+                <p class="volumeBTC volume"></p>
+              </div>
+              <div class="crypto-info">
+                <a href="#" class="aicon"><img src="img/btcicon.svg" class="cryptoicon" alt=""><p class="crypto-nameETH crypto-name"></p></a> 
+                <p class="priceETH crypto-price"></p>
+                <p class="twofourhprocentETH twofourhprocent"></p>
+                <p class="volumeETH volume"></p>
+              </div> -->
+              
+              <table  border="0" align="space-around" cellpadding="14px">
+                <tr>
+                    <td></td>
+                  <td class="tabletr">NAME</td>
+                  <td class="tabletr">PRICE</td>
+                  <td class="tabletr">24H %</td>
+                  <td class="tabletr">VOLUME</td>
+                </tr>
+
+                <tr>
+                    <td ><img src="img/btcicon.svg" class="cryptoicon" alt=""></td>
+                    <td class="tabletr crypto-nameBTC crypto-name">Loading...</td>
+                    <td class="tabletr priceBTC crypto-price">Loading...</td>
+                    <td class="tabletr twofourhprocentBTC twofourhprocent">Loading...</td>
+                    <td class="tabletr volumeBTC volume">Loading...</td>
+                  </tr>
+
+                  <tr>
+                    <td><img src="img/ETH.svg" class="cryptoicon" alt=""></td>
+                    <td class="tabletr crypto-nameETH crypto-name">Loading...</td>
+                    <td class="tabletr priceETH crypto-price">Loading...</td>
+                    <td class="tabletr twofourhprocentETH twofourhprocent">Loading...</td>
+                    <td class="tabletr volumeETH volume">Loading...</td>
+                  </tr>
+                  <tr>
+                    <td><img src="img/DOGE.svg" class="cryptoicon" alt=""></td>
+                    <td class="tabletr crypto-nameDOGE crypto-name">Loading...</td>
+                    <td class="tabletr priceDOGE crypto-price">Loading...</td>
+                    <td class="tabletr twofourhprocentDOGE twofourhprocent">Loading...</td>
+                    <td class="tabletr volumeDOGE volume">Loading...</td>
+                  </tr>
+                  <tr>
+                    <td><img src="img/TERRA.svg" class="cryptoicon" alt=""></td>
+                    <td class="tabletr crypto-nameTERRA crypto-name">Loading...</td>
+                    <td class="tabletr priceTERRA crypto-price">Loading...</td>
+                    <td class="tabletr twofourhprocentTERRA twofourhprocent">Loading...</td>
+                    <td class="tabletr volumeTERRA volume">Loading...</td>
+                  </tr>
+                  <tr>
+                    <td><img src="img/STELLAR.svg" class="cryptoicon" alt=""></td>
+                    <td class="tabletr crypto-nameSTELLAR crypto-name">Loading...</td>
+                    <td class="tabletr priceSTELLAR crypto-price">Loading...</td>
+                    <td class="tabletr twofourhprocentSTELLAR twofourhprocent">Loading...</td>
+                    <td class="tabletr volumeSTELLAR volume">Loading...</td>
+                  </tr>
+                  
+              </table>
+              <div class="crypto-search " id="crypto-search-div">
+                <h2 class="crypto-nameSearch crypto-search-p">Loading...</h2>
+                <p class="priceSearch crypto-search-p">Loading...</p>
+                <p class="twofourhprocentSearch crypto-search-p">Loading...</p>
+                <p class="volumeSearch crypto-search-p">Loading...</p>
+              </div>
+            
+              <!-- <div class="crypto-info">
+                <p class="crypto-name"></p>
+                <p class="price"></p>
+                <p class="24hprocent"></p>
+                <p class="volume"></p>
+              </div> -->
+              
+            
+
+          </div>
+
+        <footer>
+            <a class="btn btn-secondary btn-buy" style="margin: 10px;" href="#">Buy me a Coffee</a>
+
+
+        </footer>
+
+
+
+    </div>
+
+
+    <script src="js/anim.js" ></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>

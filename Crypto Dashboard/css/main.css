@@ -1,0 +1,127 @@
+body{
+    background-color: #FFA32A;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+   
+}
+header{
+    background-color: #E8E8E8;
+}
+.wrapper{
+    background-color: #FFF;
+    border-radius: 8px;
+}
+.header-first{
+    display: flex;
+}
+.form-control{
+    width: 20%;
+}
+.btn-buy{
+    background-color: #FFA32A;
+}
+.rules-header{
+    font-size: 16px;
+}
+.header-second{
+    display: flex;
+    justify-content: center;
+}
+.spotpage{
+    text-decoration: none;
+    color: black!important;
+    font-size: 18px;
+    font-weight: 500;
+}
+.favpage{
+    text-decoration: none;
+    color: black!important;
+    font-size: 18px;
+    font-weight: 500;
+}
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.crypto-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.crypto-name{
+  margin-bottom: 0px!important;
+  text-align: center;
+  padding-left: 16px;
+}
+.crypto-price{
+    width: 322px;
+    text-align: center;
+}
+.twofourhprocent{
+    width: 322px;
+    text-align: center;
+}
+.volume{
+    width: 322px;
+    text-align: center; 
+}
+.cryptoicon{
+    width: 50px;
+}
+.aicon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    width: 322px;
+    text-align: center;
+}
+.tabletr{
+    text-align: center;
+}
+.crypto-search{
+    position: absolute;
+    z-index: 100;
+    width: 70%;
+    height: 400px;
+    display: none;
+    flex-direction: column;
+    background-color: #E8E8E8;
+    text-align: left;
+     margin: 0;               
+     top: 50%;
+    left: 50%;
+    margin-right: -50%;                     
+     transform: translate(-50%, -50%);
+     border-radius: 20px;
+}
+.crypto-search-p{
+    margin-left: 16px;
+    padding: 10px;
+}
+.visible{
+   display: block;
+}
+footer{
+    margin-bottom: 100px;
+}
+@media screen and (max-width: 768px) {
+    tr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+  
+  }
+  @media screen and (max-width: 899px) {
+ 
+    .form-control{
+        width: 50%;
+    }
+  }
